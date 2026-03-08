@@ -13,3 +13,7 @@ uv pip install langchain
 cls
 uv pip list
 cls
+--Final to run GUI
+streamlit run streamlit_app.py
+--To run Server 
+uvicorn main:app --reload --port 8000
